@@ -18,3 +18,5 @@ def pascal_triangle(lineNumber):
 def binomial_coef(n, k):
     pascalTriangle = pascal_triangle(n)
     return (pascalTriangle[n][k - 1])
+
+print("hey")
